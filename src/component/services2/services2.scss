@@ -1,0 +1,47 @@
+.services2 {
+  background: #f8f9fb;
+  padding: 80px 0;
+  .services2-txt {
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      font-family: Muli, sans-serif;
+    }
+    p {
+      color: #888;
+      padding: 0 18rem;
+      font-size: 1.125rem;
+    }
+  }
+  .sbox {
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    transition: all 0.45s ease-in-out;
+    box-shadow: 0 0 6px rgb(0 0 0 / 5%);
+    text-align: left;
+    img {
+      width: 70px;
+      height: 70px;
+    }
+    .sbox-txt {
+      h5 {
+        margin-top: 20px;
+        margin-bottom: 12px;
+        color: #283034;
+        font-family: Muli, sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+      }
+      p {
+        color: #757575;
+      }
+    }
+    &:hover{
+        box-shadow: 0 6px 15px 0 rgb(0 0 0 / 15%);
+    }
+  }
+  
+}

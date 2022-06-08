@@ -1,0 +1,57 @@
+.services1{
+    background-image: url("../../img/bg-0303.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .services-txt{
+        margin-top: 7rem;
+        h3{
+            color: #fff;
+            font-size: 2.625rem;
+            font-family: Muli,sans-serif;
+            font-weight: 700;
+        }
+        p{
+            padding: 0 15%;
+            margin-bottom: 40px;
+            color: #fff;
+            font-size: 1.125rem;
+        }
+        .btn-start{
+            .btn{
+                color: #fff;
+                background: #ff1f59;
+                border-color: #ff1f59;
+                font-size: 16px;
+                padding: 12px 30px;
+                font-weight: 700;
+                border: 2px solid transparent;
+                border-radius: 4px;
+                transition: .4s ease-in-out;
+                font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+                margin-bottom: 55px;
+
+                &:hover{
+                    background: transparent;
+                    border: 2px solid #fff;
+                }
+            }
+        }
+    }
+    .sbox{
+        margin-bottom: 7rem;
+        i{
+            color: #fff;
+        }
+        h5{
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: 15px;
+            font-family: Muli,sans-serif;
+            font-weight: 700;
+            font-size: .900rem;
+        }
+    }
+}

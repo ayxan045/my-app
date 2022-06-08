@@ -1,0 +1,53 @@
+.courses3Carousel2{
+    .cbox-1 {
+        margin: 0 0 30px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        transition: .4s ease-in-out;
+          overflow: hidden;
+        a {
+          text-decoration: none;
+        }
+        .cbox-1-txt {
+          padding: 25px 20px;
+          border-radius: 0 0 6px 6px;
+          text-align: left;
+          p {
+            span {
+              background-color: #f0f1f2;
+              padding: 3px 7px;
+              margin-right: 3px;
+              border-radius: 4px;
+              color: #283034;
+              font-weight: 500;
+            }
+          }
+          h5 {
+            color: #283034;
+            font-family: Muli, sans-serif;
+            font-weight: 700;
+          }
+          .course-rating {
+            span {
+              color: #888;
+              font-weight: 400;
+            }
+          }
+          .course-price {
+            font-family: Muli, sans-serif;
+            font-weight: 800;
+            color: #333;
+    
+            .old-price {
+              font-weight: 400;
+              color: #999;
+              margin-right: 10px;
+            }
+          }
+        }
+        &:hover {
+          box-shadow: 0 6px 15px 0 rgb(0 0 0 / 15%);
+        }
+      }
+}

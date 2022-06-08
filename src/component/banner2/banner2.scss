@@ -1,0 +1,48 @@
+.banner2 {
+  background-image: url("../../img/bg-map.338f2f02.png");
+  background-color: #283034;
+  padding: 80px 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  .banner-img {
+    img {
+      border-radius: 10px 0 0 10px;
+    }
+  }
+  .banner-txt {
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+
+    h4 {
+      padding: 70px 40px 20px;
+      font-weight: 600;
+      font-size: 1.625rem;
+      span {
+        font-weight: 800;
+      }
+    }
+    .banner-link {
+      padding-left: 40px;
+      padding-bottom: 25px;
+      button {
+        color: #fff;
+        background-color: #ff1f59;
+        border-color: #ff1f59;
+        border-radius: 4px;
+        padding: 10px 25px;
+        font-weight: 700;
+        transition: 0.4s ease-in-out;
+        &:hover {
+          background-color: transparent;
+          color: #333;
+        }
+      }
+    }
+  }
+}

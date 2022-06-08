@@ -1,0 +1,43 @@
+.banner {
+  background-color: #f2f5f6;
+  padding: 100px 0 60px;
+  .banner-box {
+    background-color: #fff;
+    padding: 50px 35px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+
+    img {
+      width: 175px;
+      height: 146px;
+    }
+    .banner-txt {
+      text-align: left;
+      padding-left: 25px;
+
+      h4 {
+        color: #283034;
+        font-family: Muli, sans-serif;
+        font-weight: 700;
+      }
+      .btn-find{
+          button{
+            color: #fff!important;
+            background-color: #ff1f59;
+            border-color: #ff1f59;
+            font-size: 15px;
+            font-weight: 700;
+            padding: 10px 30px;
+            border: 2px solid transparent;
+            border-radius: 4px;
+            transition: all .45s ease-in-out;
+          }
+          :hover{
+            color: #333!important;
+            background-color: transparent;
+            border-color: #333!important;
+          }
+      }
+    }
+  }
+}

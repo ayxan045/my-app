@@ -1,0 +1,96 @@
+.courses1 {
+  background: #f8f9fb;
+  margin-top: 7rem;
+  padding-bottom: 5rem;
+  .courses1-txt1 {
+    .txt-h3 {
+      text-align: left;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      font-family: Muli, sans-serif;
+      margin-top: 6rem;
+    }
+    .courses1-txt2 {
+      margin-bottom: 30px;
+
+      .txt-p {
+        text-align: left;
+        color: #888;
+        font-size: 1.25rem;
+        width: 55%;
+      }
+      .button1 {
+        button {
+          border-radius: 4px;
+          color: #333;
+          background: transparent;
+          font-size: 15px;
+          line-height: 1;
+          font-weight: 700;
+          padding: 13px 26px;
+          border: 2px solid #e3e3e3;
+          transition: 0.45s ease-in-out;
+          margin-top: 10px;
+        }
+        :hover {
+          color: #fff;
+          background-color: #ff1f59;
+          border-color: #ff1f59;
+        }
+      }
+    }
+  }
+
+  .cbox-1 {
+    margin: 0 0 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: .4s ease-in-out;
+      overflow: hidden;
+    a {
+      text-decoration: none;
+    }
+    .cbox-1-txt {
+      padding: 25px 20px;
+      border-radius: 0 0 6px 6px;
+      text-align: left;
+      p {
+        span {
+          background-color: #f0f1f2;
+          padding: 3px 7px;
+          margin-right: 3px;
+          border-radius: 4px;
+          color: #283034;
+          font-weight: 500;
+        }
+      }
+      h5 {
+        color: #283034;
+        font-family: Muli, sans-serif;
+        font-weight: 700;
+      }
+      .course-rating {
+        span {
+          color: #888;
+          font-weight: 400;
+        }
+      }
+      .course-price {
+        font-family: Muli, sans-serif;
+        font-weight: 800;
+        color: #333;
+
+        .old-price {
+          font-weight: 400;
+          color: #999;
+          margin-right: 10px;
+        }
+      }
+    }
+    &:hover {
+      box-shadow: 0 6px 15px 0 rgb(0 0 0 / 15%);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.reviews {
+  background-image: url("../../img/bg-01.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 60px 0;
+  background-attachment: fixed;
+  .review-box {
+    background-color: #f0f1f2;
+    border: 1px solid #eee;
+    padding: 25px 40px;
+    border-radius: 4px;
+    .quote-ico {
+      position: relative;
+      padding: 15px 0;
+      img {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        opacity: 0.15;
+        left: 10px;
+        top: -10px;
+      }
+    }
+    p {
+      color: #757575;
+      font-size: 1.15rem;
+      line-height: 1.4;
+      font-weight: 400;
+      margin-bottom: 15px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .review-author {
+      text-align: left;
+      h5 {
+        color: #283034;
+        font-family: Muli, sans-serif;
+        font-weight: 700;
+      }
+      span{
+        color: #858585
+      }
+    }
+  }
+}

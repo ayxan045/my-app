@@ -1,0 +1,73 @@
+.courses2 {
+  padding: 100px 0;
+  background: #f8f9fb;
+  .courses2-txt {
+    text-align: left;
+    h3 {
+      font-size: 2.5rem;
+      color: #283034;
+      font-family: Muli, sans-serif;
+      font-weight: 700;
+    }
+    p {
+      color: #888;
+      width: 50%;
+      font-size: 1.125rem;
+      margin-bottom: 50px;
+    }
+  }
+
+  .cbox-txt {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    transition: .4s ease-in-out;
+    a {
+      text-decoration: none;
+    }
+    .cbox-left {
+      text-align: left;
+      h5 {
+        color: #283034;
+        font-family: Muli, sans-serif;
+        font-weight: 700;
+        font-size: 1.05rem;
+      }
+      p {
+        color: #757575;
+        margin: 0;
+      }
+    }
+    .cbox-rating {
+      text-align: left;
+      span {
+        color: #888;
+      }
+    }
+    .cbox-middle {
+      p {
+        font-size: 1rem;
+        font-family: Muli, sans-serif;
+        font-weight: 400;
+        color: #757575;
+      }
+    }
+    .cbox-right {
+      span {
+        font-family: Muli, sans-serif;
+        font-weight: 800;
+        color: #333;
+        font-size: 1.05rem;
+      }
+      del{
+          color: #999;
+          font-size: .95rem;
+      }
+    }
+    &:hover{
+        box-shadow: 0 6px 15px 0 rgb(0 0 0 / 15%);
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.slider {
+  .swiper {
+    .slide {
+      background-image: url("../../img/slide-2.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 90vh;
+      background-repeat: no-repeat;
+      position: absolute;
+
+      .txt {
+        box-sizing: border-box;
+
+        .slide-text {
+          font-size: 3.35rem;
+          font-weight: 900;
+          color: white;
+          text-transform: uppercase;
+          font-family: Muli, sans-serif;
+          text-align: left;
+          margin-top: 90px;
+        }
+
+        .hero-form {
+          width: 85%;
+          margin-top: 35px;
+          .input-group {
+            .form-control {
+              border-radius: 5px;
+              padding: 15px 10px;
+              font-size: 20px;
+              position: relative;
+              font-weight: 500
+            }
+            .input-group-btn {
+              position: absolute;
+              right: 5px;
+              top: 5px;
+              .btn {
+                z-index: 3;
+                font-size: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .slide2 {
+      background-image: url("../../img/slide-3.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 90vh;
+      background-repeat: no-repeat;
+
+      .txt{
+        box-sizing: border-box;
+        position: relative;
+
+        .slide2-text{
+
+          font-size: 3.35rem;
+          font-weight: 900;
+          color: #283034;
+          text-transform: uppercase;
+          font-family: Muli, sans-serif;
+          text-align: left;
+          margin-top: 90px;
+        }
+        .p-lg{
+          text-align: left;
+          font-size: 1.2rem;
+          padding-right: 15%;
+          margin-top: 15px;
+          font-weight: 600;
+          color: #283034;
+        }
+        .btn{
+          position: absolute;
+          background: #ff1f59;
+          color: #fff;
+          font-weight: 700;
+          margin-top: 15px;
+          transition: .4s ease-in-out;
+          left: 0;
+          padding: 12px 28px;
+          &:hover{
+            background: white;
+            color: black;
+            border-color: #283034;
+            
+          }
+        }
+      }
+    }
+  }
+}
